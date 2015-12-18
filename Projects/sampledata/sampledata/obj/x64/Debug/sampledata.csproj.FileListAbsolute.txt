@@ -1,0 +1,12 @@
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\sampledata.DisplayData.resources
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\sampledata.frmMain.resources
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\sampledata.Properties.Resources.resources
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\GenerateResource.read.1.tlog
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\GenerateResource.write.1.tlog
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\bin\x64\Debug\sampledata.exe
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\bin\x64\Debug\sampledata.pdb
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\bin\x64\Debug\System.Data.SQLite.dll
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\bin\x64\Debug\System.Data.SQLite.pdb
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\sampledata.exe
+C:\Users\ganeshp.CAMO\documents\visual studio 2010\Projects\sampledata\sampledata\obj\x64\Debug\sampledata.pdb

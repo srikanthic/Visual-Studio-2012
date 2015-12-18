@@ -1,0 +1,40 @@
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.exe
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.pdb
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\ResolveAssemblyReference.cache
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.Properties.Resources.resources
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\GenerateResource.read.1.tlog
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\GenerateResource.write.1.tlog
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.exe
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.pdb
+c:\users\dboris\documents\visual studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.Form1.resources
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.exe
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.pdb
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.exe
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.pdb
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.Form1.resources
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.Properties.Resources.resources
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Documents and Settings\e438695\My Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.SFDCLogin.resources
+C:\Users\dboris\Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.MainForm.resources
+C:\Users\dboris\Documents\Visual Studio 2010\Projects\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.exe.config
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.exe.config
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.MainForm.resources
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.Properties.Resources.resources
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.exe
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\bin\Debug\SalesforceREST.pdb
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.exe
+C:\Users\dboris\Desktop\SalesforceREST\SalesforceREST\obj\x86\Debug\SalesforceREST.pdb
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\bin\Debug\SalesforceREST.exe.config
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\obj\x86\Debug\SalesforceREST.exe
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\obj\x86\Debug\SalesforceREST.pdb
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\bin\Debug\SalesforceREST.exe
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\bin\Debug\SalesforceREST.pdb
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\obj\x86\Debug\SalesforceREST.csprojResolveAssemblyReference.cache
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\obj\x86\Debug\SalesforceREST.MainForm.resources
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\obj\x86\Debug\SalesforceREST.Properties.Resources.resources
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\SalesforceRESTDemo\SalesforceREST\obj\x86\Debug\SalesforceREST.csproj.GenerateResource.Cache

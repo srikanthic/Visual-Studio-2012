@@ -1,0 +1,102 @@
+﻿<Window x:Class="Timclock.View.ViewLocalDb"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ViewLocalDB" Height="600" Width="800" Closing="Window_Closing">
+    <Window.Resources>
+        <ResourceDictionary Source="../Souce/Styles/ShinyCostemcolor1.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+
+        <TreeView Margin="5" Grid.Row="0" Grid.Column="0" x:Name="TreeView" >
+            <TreeViewItem Header="Tables" x:Name="TreeViewItem" ItemsSource="{Binding treeViewItems}" Selected="TreeViewItem_OnSelected" IsExpanded="True">
+                <TreeViewItem.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding}"/>
+                    </DataTemplate>
+                </TreeViewItem.ItemTemplate>
+            </TreeViewItem>
+        </TreeView>
+        <GridSplitter Grid.Row="0" Grid.Column="1" Background="LightGray"
+                     Width="5" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <!--<GridSplitter Grid.Column="1" ResizeDirection="Columns" VerticalAlignment="Stretch" Margin="0" Width="auto" />-->
+        <Grid Margin="5" Grid.Row="2" Grid.Column="2">
+            <ListView Name="ListNone"  AlternationCount="2">
+                <ListView.View>
+                    <GridView>
+                        <GridView.ColumnHeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock FontWeight="Bold" Margin="5" Text="{Binding}"/>
+                            </DataTemplate>
+                        </GridView.ColumnHeaderTemplate>
+                        <GridViewColumn></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <ListView Name="ListPerson"  AlternationCount="2"  Visibility="Hidden" ItemsSource="{Binding localPersons}">
+                <ListView.View>
+                    <GridView>
+                        <GridView.ColumnHeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock FontWeight="Bold" Margin="5" Text="{Binding}"/>
+                            </DataTemplate>
+                        </GridView.ColumnHeaderTemplate>
+                        <GridViewColumn Header="RFId" Width="Auto" DisplayMemberBinding="{Binding Path=RFId}"/>
+                        <GridViewColumn Header="FirstName" Width="Auto" DisplayMemberBinding="{Binding Path=FirstName}"/>
+                        <GridViewColumn Header="IsSync" Width="Auto" DisplayMemberBinding="{Binding Path=IsSync}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <!--<ListView Name="ListLoginDetail"  AlternationCount="2" Visibility="Hidden" ItemsSource="{Binding localContacts}">
+                <ListView.View>
+                    <GridView>
+                        <GridView.ColumnHeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock FontWeight="Bold" Margin="5" Text="{Binding}"/>
+                            </DataTemplate>
+                        </GridView.ColumnHeaderTemplate>
+                        <GridViewColumn Header="Name" Width="Auto">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock>
+                                        <TextBlock.Text>
+                                            <MultiBinding StringFormat="{}{0} {1} {2}">
+                                                <Binding Path="Salutation" />
+                                                <Binding Path="FirstName" />
+                                                <Binding Path="LastName" />
+                                            </MultiBinding>
+                                        </TextBlock.Text>
+                                    </TextBlock>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                        <GridViewColumn Header="Phone" Width="Auto" DisplayMemberBinding="{Binding Path=Phone}"/>
+                        <GridViewColumn Header="SF_Id" Width="Auto" DisplayMemberBinding="{Binding Path=SF_Id}"/>
+                        <GridViewColumn Header="Description" Width="Auto" DisplayMemberBinding="{Binding Path=Description}"/>
+
+                    </GridView>
+                </ListView.View>
+            </ListView>-->
+            <ListView Name="localDailyShift"  AlternationCount="2" Visibility="Hidden" ItemsSource="{Binding localDailyShifts}">
+                <ListView.View>
+                    <GridView>
+                        <GridView.ColumnHeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock FontWeight="Bold" Margin="5" Text="{Binding}"/>
+                            </DataTemplate>
+                        </GridView.ColumnHeaderTemplate>
+                        <GridViewColumn Header="Worker" Width="Auto" DisplayMemberBinding="{Binding Path=Associate__c}"/>
+                        <GridViewColumn Header="Punch In" Width="Auto" DisplayMemberBinding="{Binding Path=Punch_In__c}"/>
+                        <GridViewColumn Header="Punch Out" Width="Auto" DisplayMemberBinding="{Binding Path=Punch_Out__c}"/>
+                        <GridViewColumn Header="Date" Width="Auto" DisplayMemberBinding="{Binding Path=Date__c}"/>
+                        <GridViewColumn Header="IsSync" Width="Auto" DisplayMemberBinding="{Binding Path=IsSync}"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Grid>
+    </Grid>
+</Window>

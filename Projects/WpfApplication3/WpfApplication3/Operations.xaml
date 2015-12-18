@@ -1,0 +1,14 @@
+﻿<Window x:Class="WpfApplication3.Operations"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Operations" Height="300" Width="300" Closing="Window_Closing">
+    <Grid>
+        <Button Name="Inout" Content="Login" HorizontalAlignment="Left" VerticalAlignment="Top" Width="257" Margin="18,52,0,0" Click="Button_Click_1"/>
+        <Button Content="View SalesForce Recors" HorizontalAlignment="Left" VerticalAlignment="Top" Width="257" Margin="18,85,0,0" Click="Button_Click"/>
+        <Button Content="Exit" HorizontalAlignment="Left" VerticalAlignment="Top" Width="257" Margin="18,234,0,0" Click="Button_Click_2"/>
+        <Button Content="View Records in Local Database" HorizontalAlignment="Left" VerticalAlignment="Top" Width="257" Margin="18,118,0,0" Click="Button_Click_3"/>
+        <Button Content="Fetch Records SalesForce to Local Database " HorizontalAlignment="Left" VerticalAlignment="Top" Width="257" Margin="18,149,0,0" Click="Button_Click_4"/>
+        <Image x:Name="Signell_check" HorizontalAlignment="Left" Height="16" VerticalAlignment="Top" Width="19" Margin="245,19,0,0" Cursor="Help"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,43 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="Timclock.Window1121123"
+        Title="Window1121123" Height="480" Width="500" AllowsTransparency="False" WindowStyle="ToolWindow">
+    <Window.Background>
+        <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0" Opacity="1">
+            <GradientStop Color="#FF62B0FF" Offset="0"/>
+            <GradientStop Color="#FFCBD7E4" Offset="1"/>
+        </LinearGradientBrush>
+    </Window.Background>
+    <Window.Resources>
+        <ResourceDictionary Source="/Souce/Styles/ShinyCostemcolor1.xaml"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="31*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="75*"/>
+            <RowDefinition Height="21*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="245*"/>
+            <ColumnDefinition Width="184*"/>
+            <ColumnDefinition Width="71*"/>
+        </Grid.ColumnDefinitions>
+        <Button Grid.Column="0" x:Name="Inout" Content="Login"  Margin="26,2,0,0" Click="Button_Click_1" FontFamily="Sitka Text" FontSize="21" Grid.Row="1"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Button Grid.Column="0" Grid.Row="4" Content="View SalesForce Recors" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="26,2,28,0" Click="Button_Click" FontFamily="Sitka Text" FontSize="21" Grid.ColumnSpan="3"/>
+        <Button Content="EXIT" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Click="Button_Click_2" FontFamily="Sitka Text" FontSize="21" Grid.Column="1" Grid.ColumnSpan="2" Margin="134,61,10,0" Grid.Row="6" Grid.RowSpan="2"/>
+        <Button Content="View Records in Local Database" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="26,8,28,6" Click="Button_Click_3" FontFamily="Sitka Text" FontSize="21" Grid.ColumnSpan="3" Grid.Row="3"/>
+        <Button Content="Fetch Records SalesForce to Local Database " HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="26,2,28,0" Click="Button_Click_4" HorizontalContentAlignment="Center" FontFamily="Sitka Text" FontSize="21" Grid.ColumnSpan="3" Grid.Row="2"/>
+
+        <Button Content="Timeclock"  HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="26,4,28,0" Click="Button_Click_5" FontFamily="Sitka Text" FontSize="21" Grid.ColumnSpan="3" Grid.Row="6"/>
+        <Button Content="Clear All Local Tables" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="26,2,28,0" Click="Button_Click_6" FontFamily="Sitka Text" FontSize="21" Grid.ColumnSpan="3" Grid.Row="5"/>
+        <DockPanel Height="80" Width="80" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Column="1" Grid.RowSpan="2">
+            <Grid x:Name="Grid" Height="60" Width="60" />
+        </DockPanel>
+    </Grid>
+</Window>

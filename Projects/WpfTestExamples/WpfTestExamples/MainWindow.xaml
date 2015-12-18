@@ -1,0 +1,162 @@
+﻿<Window x:Class="WpfTestExamples.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="0,32,0,0">
+        <Grid.RowDefinitions>
+            <!-- Your Top elements -->
+            <RowDefinition Height="Auto"/>
+            <!-- The Center white space -->
+            <RowDefinition Height="*"/>
+            <!-- The gray gradient bar with a fixed height -->
+            <RowDefinition Height="10"/>
+            <!-- The footer elements -->
+            <RowDefinition Height="Auto"/>
+            <!-- The Status Text stuff -->
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.Resources>
+            <!-- Let's set some children properties for inheritance -->
+            <Style TargetType="{x:Type RadioButton}">
+                <Setter Property="Margin" Value="0,2"/>
+                <Setter Property="HorizontalAlignment" Value="Left"/>
+            </Style>
+            <Style TargetType="{x:Type CheckBox}">
+                <Setter Property="Margin" Value="5"/>
+                <Setter Property="VerticalAlignment" Value="Center"/>
+            </Style>
+        </Grid.Resources>
+
+        <!-- Begin Row 0 -->
+        <StackPanel Orientation="Horizontal">
+
+            <ListBox x:Name="lstBox"/>
+
+            <StackPanel Margin="20,0">
+                <RadioButton x:Name="rbHeader1" IsChecked="True" Content="RB1" />
+                <RadioButton x:Name="rbHeader2" Content="RB2"/>
+                <RadioButton x:Name="rbHeader3" Content="RB3"/>
+                <RadioButton x:Name="rbHeader4" Content="RB4"/>
+                <StackPanel Orientation="Horizontal">
+                    <Button x:Name="btnStart" Content="Start" Margin="0,10,0,0"/>
+                    <Button x:Name="btnExport" Content="Export"/>
+                </StackPanel>
+            </StackPanel>
+
+            <DataGrid x:Name="DGV" Width="637" FontWeight="Bold" 
+              AlternatingRowBackground="Gainsboro" AlternationCount="2" RowBackground="#FFC6C6C6"  
+              CanUserSortColumns="False" CanUserResizeColumns="False" CanUserReorderColumns="False" 
+              MinColumnWidth="0" IsReadOnly="True">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header=" "/>
+                    <DataGridHyperlinkColumn Header="URL" Width="295"/>
+                    <DataGridTextColumn Header="Header 1" Width="80"/>
+                    <DataGridTextColumn Header="Header 2" Width="80"/>
+                    <DataGridTextColumn Header="Header 3" Width="80"/>
+                </DataGrid.Columns>
+            </DataGrid>
+
+        </StackPanel>
+        <!-- End Row 0 -->
+
+        <!-- Grid.Row="1" would go here if there was something to go here, 
+       otherwise this cell row just expands the available height and 
+       pushes the footer row to the bottom to provide that area of
+       white space -->
+
+        <!-- Begin Row 2 -->
+        <Rectangle>
+            <Rectangle.Fill>
+                <LinearGradientBrush MappingMode="RelativeToBoundingBox" StartPoint="0.5,0" EndPoint="0.5,1">
+                    <GradientStop Color="#FF313130" />
+                    <GradientStop Offset="0.31" Color="#FFD8D8CF" />
+                    <GradientStop Color="#FF757672" />
+                    <GradientStop Offset="0.203" Color="#FFD8D8CF" />
+                    <GradientStop Offset="0.547" Color="#FFBABAAF" />
+                    <GradientStop Color="White" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <!-- End Row 3 -->
+
+        <!-- Begin Row 3 -->
+        <Grid Grid.Row="3" Height="28" Margin="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- TextBlock is "lighter" than Label, use it instead where you can. -->
+            <StackPanel Orientation="Horizontal">
+                <TextBlock x:Name="label1"
+                 Text="Find:" />
+                <TextBox x:Name="txtSearchTerm"
+               Margin="8,0" Width="130"/>
+                <Button x:Name="btnFind"
+              Width="60"
+              Content="Find Next"/>
+                <Button x:Name="btnFindPrevious"
+                Width="100" Margin="10,0"
+                Content="Find Previous"/>
+            </StackPanel>
+
+            <CheckBox x:Name="chkMatchCase"
+              Grid.Column="1"
+              Content="Match Case"/>
+
+            <CheckBox x:Name="chkWholeWord"
+              Grid.Column="2"
+              Content="Whole Word"/>
+
+            <CheckBox x:Name="chkSearchBackwards"
+              Grid.Column="3"
+              Content="Search Backwards"/>
+
+            <CheckBox x:Name="chkWrapSearch"
+              Grid.Column="4"
+              Content="Wrap"/>
+
+            <CheckBox x:Name="chkHiLitAll"
+              Grid.Column="5"
+              Content="HiLite All Occurrences"/>
+
+            <StackPanel Grid.Column="6" Orientation="Horizontal">
+                <!-- These Previous/Next things were labels, were they supposed to be buttons
+           since they have a "Hand" cursor? -->
+                <TextBlock x:Name="lblPrevious" Text="Previous" Cursor="Hand"/>
+                <CheckBox x:Name="cbGood" Content="Good" VerticalAlignment="Bottom"/>
+                <CheckBox x:Name="cbNotsure" Content="Not sure" VerticalAlignment="Bottom"/>
+                <CheckBox x:Name="cbBad" Content="Bad" VerticalAlignment="Bottom"/>
+                <TextBlock x:Name="lblNext" Text="Next" Cursor="Hand"/>
+            </StackPanel>
+
+        </Grid>
+        <!-- End Row 3 -->
+
+        <!-- Begin Row 4 -->
+        <StackPanel Grid.Row="4" Orientation="Horizontal">
+            <TextBlock x:Name="lblStatusText"
+               Text="{Binding CurrentBrowser.StatusText, FallbackValue=Status Text}"
+               Margin="5"/>
+            <TextBlock x:Name="lblSecurityStatus"/>
+        </StackPanel>
+        <!-- End Row 4 -->
+
+        <!-- I didn't see this in your image, so wasn't sure where it goes -->
+        <!-- 
+  <Border x:Name="NewTabButton">
+    <Image x:Name="btnNewTab"
+           ToolTip="Add New Tab">
+           <Image.LayoutTransform>
+            <RotateTransform Angle="180" />
+           </Image.LayoutTransform>
+    </Image>
+  </Border>
+  -->
+    </Grid>
+</Window>

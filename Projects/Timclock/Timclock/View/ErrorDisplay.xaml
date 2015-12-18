@@ -1,0 +1,8 @@
+﻿<Window x:Class="Timclock.View.ErrorDisplay"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ErrorDisplay" Height="100" Width="200" Closing="Window_Closing" ResizeMode="NoResize">
+    <Grid>
+        <TextBlock Text="Invalid Entry" FontSize="18" IsHitTestVisible="False" TextAlignment="Center" VerticalAlignment="Center" Grid.ColumnSpan="2" Margin="0,23,0,22"/><TextBox Focusable="True" Opacity="0"/>
+    </Grid>
+</Window>

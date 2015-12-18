@@ -1,0 +1,16 @@
+﻿<Window x:Class="WpfSQLITE.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Check Internet" HorizontalAlignment="Left" VerticalAlignment="Top" Width="125" Margin="22,21,0,0" Height="29" Click="Button_Click"/>
+        <Image x:Name="Image" HorizontalAlignment="Left" Height="50" VerticalAlignment="Top" Width="51" Margin="428,28,0,0" Source="Wifi.ico"/>
+        <Image x:Name="Image1" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="34" Margin="445,48,0,0" Source="warning_red.png" RenderTransformOrigin="0.118,0.483"/>
+<Grid x:Name="Panel" Width="100" Height="100" Margin="222,94,195,125"></Grid>
+        <Label x:Name="Label" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        <WindowsFormsHost x:Name="WindowsFormsHost" HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100" Margin="47,124,0,0">
+            
+        </WindowsFormsHost>
+
+    </Grid>
+</Window>

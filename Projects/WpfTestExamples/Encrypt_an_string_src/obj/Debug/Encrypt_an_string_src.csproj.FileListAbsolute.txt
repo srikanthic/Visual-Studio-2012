@@ -1,0 +1,8 @@
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\bin\Debug\Encrypt_an_string_src.exe.config
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\bin\Debug\Encrypt_an_string_src.exe
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\bin\Debug\Encrypt_an_string_src.pdb
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\obj\Debug\Encrypt_an_string_src.csprojResolveAssemblyReference.cache
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\obj\Debug\Encrypt_an_string_src.Properties.Resources.resources
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\obj\Debug\Encrypt_an_string_src.csproj.GenerateResource.Cache
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\obj\Debug\Encrypt_an_string_src.exe
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\Encrypt_an_string_src\obj\Debug\Encrypt_an_string_src.pdb

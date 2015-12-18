@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Encrypt_an_string_src.DecryptTransformer">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <AssociationLine Name="EncryptionAlgorithm" Type="Encrypt_an_string_src.EncryptionAlgorithm" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="1" />
+        <Point X="3" Y="1" />
+        <Point X="3" Y="1.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true" ManuallySized="true">
+        <Position X="-0.461" Y="0.589" Height="0.16" Width="1.327" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAABAAAAoAAQAQAQA=</HashCode>
+      <FileName>clsDecrypt.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EncryptionAlgorithm" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Encrypt_an_string_src.Decryptor">
+    <Position X="0.5" Y="4.25" Width="2" />
+    <AssociationLine Name="DecryptTransformer" Type="Encrypt_an_string_src.DecryptTransformer">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.494" Y="0.81" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>clsDecrypt.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="DecryptTransformer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Encrypt_an_string_src.Encryptor">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <AssociationLine Name="EncryptEngine" Type="Encrypt_an_string_src.EncryptEngine">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.027" Y="0.685" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAQAAAA=</HashCode>
+      <FileName>clsEncryptBussiness.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EncryptEngine" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Encrypt_an_string_src.EncryptEngine">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="EncryptionAlgorithm" Type="Encrypt_an_string_src.EncryptionAlgorithm" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="1" />
+        <Point X="4.438" Y="1" />
+        <Point X="4.438" Y="1.5" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.075" Y="0.641" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AACACAAAAAAAAAAAAQAAAAABAAAAAAAAAEAAQAAAAQA=</HashCode>
+      <FileName>clsEncryptEngine.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="EncryptionAlgorithm" />
+    </ShowAsAssociation>
+  </Class>
+  <Enum Name="Encrypt_an_string_src.EncryptionAlgorithm">
+    <Position X="3" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAACAAAAAAABAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>clsEncryptEngine.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

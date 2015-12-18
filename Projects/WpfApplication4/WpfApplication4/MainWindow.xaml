@@ -1,0 +1,9 @@
+﻿<Window x:Class="WpfApplication4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Signin" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="62,33,0,0" Click="Button_Click"/>
+
+    </Grid>
+</Window>

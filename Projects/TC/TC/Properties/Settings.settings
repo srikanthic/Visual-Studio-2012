@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TC.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="SFUsername" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hillphoenix@live.com.sandbox</Value>
+    </Setting>
+    <Setting Name="SFPassword" Type="System.String" Scope="User">
+      <Value Profile="(Default)">hrms12345</Value>
+    </Setting>
+    <Setting Name="SFToken" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="ClientId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3MVG9MHOv_bskkhSDUYQKfusFVb7Sm8F.e8rmby7OEuUQpHSf9w3pyoHssPEJVmblbXqVbTGhsUgNv8s8XgQv</Value>
+    </Setting>
+    <Setting Name="ClientSecret" Type="System.String" Scope="User">
+      <Value Profile="(Default)">8538928391097187856</Value>
+    </Setting>
+    <Setting Name="TokenRequestEndPointUrl" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="LogIn" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

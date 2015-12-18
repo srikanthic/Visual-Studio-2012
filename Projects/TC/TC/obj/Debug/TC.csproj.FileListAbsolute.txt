@@ -1,0 +1,17 @@
+c:\users\employee-05\documents\visual studio 2012\Projects\TC\TC\bin\Debug\TC.exe.config
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\TC.csprojResolveAssemblyReference.cache
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\MainWindow.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\Souce\Styles\BureauBlack.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\Souce\Styles\BureauBlue.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\Souce\Styles\ExpressionDark.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\Souce\Styles\ExpressionLight.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\Souce\Styles\ShinyBlue.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\Souce\Styles\ShinyRed.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\Souce\Styles\WhistlerBlue.baml
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\MainWindow.g.cs
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\App.g.cs
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\TC_Content.g.cs
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\TC_MarkupCompile.cache
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\TC.g.resources
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\TC.Properties.Resources.resources
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\TC\TC\obj\Debug\TC.csproj.GenerateResource.Cache

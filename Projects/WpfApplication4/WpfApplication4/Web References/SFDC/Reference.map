@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="file:///C:/Users/EMPLOYEE-05/Documents/Visual Studio 2012/Projects/WpfApplication4/WpfApplication4/Referense/Salesforce_enterprise_wsdl.jsp.xml" filename="Salesforce_enterprise_wsdl.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

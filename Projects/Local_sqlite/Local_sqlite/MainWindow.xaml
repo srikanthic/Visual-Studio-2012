@@ -1,0 +1,36 @@
+﻿<Window x:Class="Local_sqlite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <ListView Grid.Row="0" Name="ListView" VerticalContentAlignment="Stretch" 
+                Height="Auto"  HorizontalContentAlignment="Stretch" Width="Auto" ItemsSource="{Binding account}">
+
+            <ListView.View>
+                <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Accounts">
+                    <GridViewColumn Header="Name" Width="Auto" DisplayMemberBinding="{Binding Path=Name}" />
+                    <GridViewColumn Header="Description" Width="auto" DisplayMemberBinding="{Binding Path=Description}" />
+                    <GridViewColumn Header="Phone" Width="auto" DisplayMemberBinding="{Binding Path=Phone}" />
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <ListView Grid.Row="1" Name="ListView1" VerticalContentAlignment="Stretch" 
+                Height="Auto"  HorizontalContentAlignment="Stretch" Width="Auto" ItemsSource="{Binding contact}">
+
+            <ListView.View>
+                <GridView AllowsColumnReorder="true" ColumnHeaderToolTip="Contacts">
+                    <GridViewColumn Header="Salutation" Width="Auto" DisplayMemberBinding="{Binding Path=Salutation}" />
+                    <GridViewColumn Header="FirstName" Width="auto" DisplayMemberBinding="{Binding Path=FirstName}" />
+                    <GridViewColumn Header="LastName" Width="auto" DisplayMemberBinding="{Binding Path=LastName}" />
+                    <GridViewColumn Header="Description" Width="auto" DisplayMemberBinding="{Binding Path=Description}" />
+                    <GridViewColumn Header="Phone" Width="auto" DisplayMemberBinding="{Binding Path=Phone}" />
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

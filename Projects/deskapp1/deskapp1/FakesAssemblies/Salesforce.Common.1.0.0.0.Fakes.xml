@@ -1,0 +1,1037 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Salesforce.Common.1.0.0.0.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:Salesforce.Common.Fakes.ShimAuthenticationClient">
+            <summary>Shim type of Salesforce.Common.AuthenticationClient</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimAuthenticationClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimAuthenticationClient.#ctor(Salesforce.Common.AuthenticationClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimAuthenticationClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimAuthenticationClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimAuthenticationClient.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AccessTokenGet">
+            <summary>Sets the shim of AuthenticationClient.get_AccessToken()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AccessTokenSetString">
+            <summary>Sets the shim of AuthenticationClient.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.ApiVersionGet">
+            <summary>Sets the shim of AuthenticationClient.get_ApiVersion()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.ApiVersionSetString">
+            <summary>Sets the shim of AuthenticationClient.set_ApiVersion(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.Constructor">
+            <summary>Sets the shim of AuthenticationClient.AuthenticationClient()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.ConstructorHttpClient">
+            <summary>Sets the shim of AuthenticationClient.AuthenticationClient(HttpClient httpClient)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.Dispose">
+            <summary>Sets the shim of AuthenticationClient.Dispose()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.IdGet">
+            <summary>Sets the shim of AuthenticationClient.get_Id()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.IdSetString">
+            <summary>Sets the shim of AuthenticationClient.set_Id(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.InstanceUrlGet">
+            <summary>Sets the shim of AuthenticationClient.get_InstanceUrl()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.InstanceUrlSetString">
+            <summary>Sets the shim of AuthenticationClient.set_InstanceUrl(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.TokenRefreshAsyncStringStringString">
+            <summary>Sets the shim of AuthenticationClient.TokenRefreshAsync(String clientId, String refreshToken, String clientSecret)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.TokenRefreshAsyncStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.TokenRefreshAsync(String clientId, String refreshToken, String clientSecret, String userAgent)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.TokenRefreshAsyncStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.TokenRefreshAsync(String clientId, String refreshToken, String clientSecret, String userAgent, String tokenRequestEndpointUrl)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.UsernamePasswordAsyncStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.UsernamePasswordAsync(String clientId, String clientSecret, String username, String password)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.UsernamePasswordAsyncStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.UsernamePasswordAsync(String clientId, String clientSecret, String username, String password, String userAgent)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.UsernamePasswordAsyncStringStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.UsernamePasswordAsync(String clientId, String clientSecret, String username, String password, String userAgent, String tokenRequestEndpointUrl)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.WebServerAsyncStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.WebServerAsync(String clientId, String clientSecret, String redirectUri, String code)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.WebServerAsyncStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.WebServerAsync(String clientId, String clientSecret, String redirectUri, String code, String userAgent)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.WebServerAsyncStringStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.WebServerAsync(String clientId, String clientSecret, String redirectUri, String code, String userAgent, String tokenRequestEndpointUrl)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.AccessTokenGet">
+            <summary>Sets the shim of AuthenticationClient.get_AccessToken()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.AccessTokenSetString">
+            <summary>Sets the shim of AuthenticationClient.set_AccessToken(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.ApiVersionGet">
+            <summary>Sets the shim of AuthenticationClient.get_ApiVersion()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.ApiVersionSetString">
+            <summary>Sets the shim of AuthenticationClient.set_ApiVersion(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.Dispose">
+            <summary>Sets the shim of AuthenticationClient.Dispose()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.IdGet">
+            <summary>Sets the shim of AuthenticationClient.get_Id()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.IdSetString">
+            <summary>Sets the shim of AuthenticationClient.set_Id(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.InstanceUrlGet">
+            <summary>Sets the shim of AuthenticationClient.get_InstanceUrl()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.InstanceUrlSetString">
+            <summary>Sets the shim of AuthenticationClient.set_InstanceUrl(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.TokenRefreshAsyncStringStringString">
+            <summary>Sets the shim of AuthenticationClient.TokenRefreshAsync(String clientId, String refreshToken, String clientSecret)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.TokenRefreshAsyncStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.TokenRefreshAsync(String clientId, String refreshToken, String clientSecret, String userAgent)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.TokenRefreshAsyncStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.TokenRefreshAsync(String clientId, String refreshToken, String clientSecret, String userAgent, String tokenRequestEndpointUrl)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.UsernamePasswordAsyncStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.UsernamePasswordAsync(String clientId, String clientSecret, String username, String password)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.UsernamePasswordAsyncStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.UsernamePasswordAsync(String clientId, String clientSecret, String username, String password, String userAgent)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.UsernamePasswordAsyncStringStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.UsernamePasswordAsync(String clientId, String clientSecret, String username, String password, String userAgent, String tokenRequestEndpointUrl)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.WebServerAsyncStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.WebServerAsync(String clientId, String clientSecret, String redirectUri, String code)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.WebServerAsyncStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.WebServerAsync(String clientId, String clientSecret, String redirectUri, String code, String userAgent)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimAuthenticationClient.AllInstances.WebServerAsyncStringStringStringStringStringString">
+            <summary>Sets the shim of AuthenticationClient.WebServerAsync(String clientId, String clientSecret, String redirectUri, String code, String userAgent, String tokenRequestEndpointUrl)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimCommon">
+            <summary>Shim type of Salesforce.Common.Common</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimCommon.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimCommon.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimCommon.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimCommon.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimCommon.FormatAuthUrlStringResponseTypesStringStringDisplayTypesBooleanStringString">
+            <summary>Sets the shim of Common.FormatAuthUrl(String loginUrl, ResponseTypes responseType, String clientId, String redirectUrl, DisplayTypes display, Boolean immediate, String state, String scope)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimCommon.FormatRefreshTokenUrlStringStringStringString">
+            <summary>Sets the shim of Common.FormatRefreshTokenUrl(String tokenRefreshUrl, String clientId, String refreshToken, String clientSecret)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimCommon.FormatUrlStringStringString">
+            <summary>Sets the shim of Common.FormatUrl(String resourceName, String instanceUrl, String apiVersion)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimForceAuthException">
+            <summary>Shim type of Salesforce.Common.ForceAuthException</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceAuthException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceAuthException.#ctor(Salesforce.Common.ForceAuthException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceAuthException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceAuthException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceAuthException.Bind(Salesforce.Common.IForceException)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceAuthException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceAuthException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceAuthException.ConstructorErrorString">
+            <summary>Sets the shim of ForceAuthException.ForceAuthException(Error error, String description)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceAuthException.ConstructorErrorStringStringArray">
+            <summary>Sets the shim of ForceAuthException.ForceAuthException(Error error, String description, String[] fields)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceAuthException.ConstructorStringString">
+            <summary>Sets the shim of ForceAuthException.ForceAuthException(String error, String description)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceAuthException.ConstructorStringStringStringArray">
+            <summary>Sets the shim of ForceAuthException.ForceAuthException(String error, String description, String[] fields)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimForceAuthException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimForceException">
+            <summary>Shim type of Salesforce.Common.ForceException</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceException.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceException.#ctor(Salesforce.Common.ForceException)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceException.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceException.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceException.Bind(Salesforce.Common.IForceException)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimForceException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.ConstructorErrorString">
+            <summary>Sets the shim of ForceException.ForceException(Error error, String description)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.ConstructorErrorStringStringArray">
+            <summary>Sets the shim of ForceException.ForceException(Error error, String description, String[] fields)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.ConstructorStringString">
+            <summary>Sets the shim of ForceException.ForceException(String error, String description)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.ConstructorStringStringStringArray">
+            <summary>Sets the shim of ForceException.ForceException(String error, String description, String[] fields)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.ErrorGet">
+            <summary>Sets the shim of ForceException.get_Error()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.ErrorSetError">
+            <summary>Sets the shim of ForceException.set_Error(Error value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.FieldsGet">
+            <summary>Sets the shim of ForceException.get_Fields()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.FieldsSetStringArray">
+            <summary>Sets the shim of ForceException.set_Fields(String[] value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.ParseErrorString">
+            <summary>Sets the shim of ForceException.ParseError(String error)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.SalesforceCommonIForceExceptionget_InnerException">
+            <summary>Sets the shim of ForceException.Salesforce.Common.IForceException.get_InnerException()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimForceException.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.AllInstances.ErrorGet">
+            <summary>Sets the shim of ForceException.get_Error()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.AllInstances.ErrorSetError">
+            <summary>Sets the shim of ForceException.set_Error(Error value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.AllInstances.FieldsGet">
+            <summary>Sets the shim of ForceException.get_Fields()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.AllInstances.FieldsSetStringArray">
+            <summary>Sets the shim of ForceException.set_Fields(String[] value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimForceException.AllInstances.SalesforceCommonIForceExceptionget_InnerException">
+            <summary>Sets the shim of ForceException.Salesforce.Common.IForceException.get_InnerException()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimServiceHttpClient">
+            <summary>Shim type of Salesforce.Common.ServiceHttpClient</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.#ctor(Salesforce.Common.ServiceHttpClient)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.Bind(Salesforce.Common.IServiceHttpClient)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.Bind(System.IDisposable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.HttpGetAsyncOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Threading.Tasks.Task{``0}})">
+            <summary>Sets the shim of ServiceHttpClient.HttpGetAsync(String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.HttpGetAsyncOf1StringString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.String,System.Threading.Tasks.Task{System.Collections.Generic.IList{``0}}})">
+            <summary>Sets the shim of ServiceHttpClient.HttpGetAsync(String urlSuffix, String nodeName)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.HttpPostAsyncOf1ObjectString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,System.String,System.Threading.Tasks.Task{``0}})">
+            <summary>Sets the shim of ServiceHttpClient.HttpPostAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.ConstructorStringStringStringHttpClient">
+            <summary>Sets the shim of ServiceHttpClient.ServiceHttpClient(String instanceUrl, String apiVersion, String accessToken, HttpClient httpClient)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.ConstructorStringStringStringStringHttpClient">
+            <summary>Sets the shim of ServiceHttpClient.ServiceHttpClient(String instanceUrl, String apiVersion, String accessToken, String userAgent, HttpClient httpClient)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.Dispose">
+            <summary>Sets the shim of ServiceHttpClient.Dispose()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.HttpDeleteAsyncString">
+            <summary>Sets the shim of ServiceHttpClient.HttpDeleteAsync(String urlSuffix)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.HttpPatchAsyncObjectString">
+            <summary>Sets the shim of ServiceHttpClient.HttpPatchAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.StaticConstructor">
+            <summary>Sets the shim of ServiceHttpClient.ServiceHttpClient()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.ShimServiceHttpClient.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.AllInstances.HttpGetAsyncOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Salesforce.Common.ServiceHttpClient,System.String,System.Threading.Tasks.Task{``0}})">
+            <summary>Sets the shim of ServiceHttpClient.HttpGetAsync(String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.AllInstances.HttpGetAsyncOf1StringString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Salesforce.Common.ServiceHttpClient,System.String,System.String,System.Threading.Tasks.Task{System.Collections.Generic.IList{``0}}})">
+            <summary>Sets the shim of ServiceHttpClient.HttpGetAsync(String urlSuffix, String nodeName)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.ShimServiceHttpClient.AllInstances.HttpPostAsyncOf1ObjectString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{Salesforce.Common.ServiceHttpClient,System.Object,System.String,System.Threading.Tasks.Task{``0}})">
+            <summary>Sets the shim of ServiceHttpClient.HttpPostAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.AllInstances.Dispose">
+            <summary>Sets the shim of ServiceHttpClient.Dispose()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.AllInstances.HttpDeleteAsyncString">
+            <summary>Sets the shim of ServiceHttpClient.HttpDeleteAsync(String urlSuffix)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.ShimServiceHttpClient.AllInstances.HttpPatchAsyncObjectString">
+            <summary>Sets the shim of ServiceHttpClient.HttpPatchAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.StubAuthenticationClient">
+            <summary>Stub type of Salesforce.Common.AuthenticationClient</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubAuthenticationClient.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubAuthenticationClient.#ctor(System.Net.Http.HttpClient)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubAuthenticationClient.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthenticationClient</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubAuthenticationClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubAuthenticationClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubAuthenticationClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.StubForceAuthException">
+            <summary>Stub type of Salesforce.Common.ForceAuthException</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.#ctor(Salesforce.Common.Models.Error,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.#ctor(System.String,System.String,System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.#ctor(Salesforce.Common.Models.Error,System.String,System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubForceAuthException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubForceAuthException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.InitializeStub">
+            <summary>Initializes a new instance of type StubForceAuthException</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceAuthException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceAuthException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceAuthException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.StubForceException">
+            <summary>Stub type of Salesforce.Common.ForceException</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.#ctor(Salesforce.Common.Models.Error,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.#ctor(System.String,System.String)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.#ctor(System.String,System.String,System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.#ctor(Salesforce.Common.Models.Error,System.String,System.String[])">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.AttachBackingFieldToHelpLink">
+            <summary>Attaches delegates to emulate StubForceException.HelpLink as a property with a backing field.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.AttachBackingFieldToSource">
+            <summary>Attaches delegates to emulate StubForceException.Source as a property with a backing field.</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.DataGet">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.GetBaseException">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.GetBaseException01">
+            <summary>Sets the stub of Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Sets the stub of Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.HelpLinkGet">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.HelpLinkSetString">
+            <summary>Sets the stub of Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.InitializeStub">
+            <summary>Initializes a new instance of type StubForceException</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.MessageGet">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.SourceGet">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.SourceSetString">
+            <summary>Sets the stub of Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.StackTraceGet">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubForceException.ToString">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubForceException.ToString01">
+            <summary>Sets the stub of Exception.ToString()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.Data">
+            <summary>Sets the stub of Exception.get_Data()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.HelpLink">
+            <summary>Sets the stub of Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.Message">
+            <summary>Sets the stub of Exception.get_Message()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.Source">
+            <summary>Sets the stub of Exception.get_Source()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubForceException.StackTrace">
+            <summary>Sets the stub of Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.StubIForceException">
+            <summary>Stub type of Salesforce.Common.IForceException</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIForceException.#ctor">
+            <summary>Initializes a new instance of type StubIForceException</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIForceException.DataGet">
+            <summary>Sets the stub of IForceException.get_Data()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIForceException.GetBaseException">
+            <summary>Sets the stub of IForceException.GetBaseException()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIForceException.InnerExceptionGet">
+            <summary>Sets the stub of IForceException.get_InnerException()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIForceException.MessageGet">
+            <summary>Sets the stub of IForceException.get_Message()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIForceException.sc::Salesforce#Common#IForceException#GetBaseException">
+            <summary>Sets the stub of IForceException.GetBaseException()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIForceException.sc::Salesforce#Common#IForceException#ToString">
+            <summary>Sets the stub of IForceException.ToString()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIForceException.StackTraceGet">
+            <summary>Sets the stub of IForceException.get_StackTrace()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIForceException.ToString">
+            <summary>Sets the stub of IForceException.ToString()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubIForceException.sc::Salesforce#Common#IForceException#Data">
+            <summary>Sets the stub of IForceException.get_Data()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubIForceException.sc::Salesforce#Common#IForceException#InnerException">
+            <summary>Sets the stub of IForceException.get_InnerException()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubIForceException.sc::Salesforce#Common#IForceException#Message">
+            <summary>Sets the stub of IForceException.get_Message()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubIForceException.sc::Salesforce#Common#IForceException#StackTrace">
+            <summary>Sets the stub of IForceException.get_StackTrace()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.StubIServiceHttpClient">
+            <summary>Stub type of Salesforce.Common.IServiceHttpClient</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.#ctor">
+            <summary>Initializes a new instance of type StubIServiceHttpClient</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIServiceHttpClient.Dispose">
+            <summary>Sets the stub of IServiceHttpClient.Dispose()</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIServiceHttpClient.HttpDeleteAsyncString">
+            <summary>Sets the stub of IServiceHttpClient.HttpDeleteAsync(String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.HttpGetAsyncOf1String``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.String,System.Threading.Tasks.Task{``0}})">
+            <summary>Sets stubs of HttpGetAsync(String urlSuffix)</summary>
+        </member>
+        <member name="F:Salesforce.Common.Fakes.StubIServiceHttpClient.HttpPatchAsyncObjectString">
+            <summary>Sets the stub of IServiceHttpClient.HttpPatchAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.HttpPostAsyncOf1ObjectString``1(Microsoft.QualityTools.Testing.Fakes.FakesDelegates.Func{System.Object,System.String,System.Threading.Tasks.Task{``0}})">
+            <summary>Sets stubs of HttpPostAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.sc::Salesforce#Common#IServiceHttpClient#Dispose">
+            <summary>Sets the stub of IServiceHttpClient.Dispose()</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.sc::Salesforce#Common#IServiceHttpClient#HttpDeleteAsync(System.String)">
+            <summary>Sets the stub of IServiceHttpClient.HttpDeleteAsync(String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.sc::Salesforce#Common#IServiceHttpClient#HttpGetAsync``1(System.String)">
+            <summary>Sets the stub of IServiceHttpClient.HttpGetAsync(String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.sc::Salesforce#Common#IServiceHttpClient#HttpPatchAsync(System.Object,System.String)">
+            <summary>Sets the stub of IServiceHttpClient.HttpPatchAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubIServiceHttpClient.sc::Salesforce#Common#IServiceHttpClient#HttpPostAsync``1(System.Object,System.String)">
+            <summary>Sets the stub of IServiceHttpClient.HttpPostAsync(Object inputObject, String urlSuffix)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Fakes.StubServiceHttpClient">
+            <summary>Stub type of Salesforce.Common.ServiceHttpClient</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubServiceHttpClient.#ctor(System.String,System.String,System.String,System.Net.Http.HttpClient)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubServiceHttpClient.#ctor(System.String,System.String,System.String,System.String,System.Net.Http.HttpClient)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Fakes.StubServiceHttpClient.InitializeStub">
+            <summary>Initializes a new instance of type StubServiceHttpClient</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubServiceHttpClient.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubServiceHttpClient.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Fakes.StubServiceHttpClient.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse">
+            <summary>Shim type of Salesforce.Common.Models.AuthErrorResponse</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse.#ctor(Salesforce.Common.Models.AuthErrorResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse.Constructor">
+            <summary>Sets the shim of AuthErrorResponse.AuthErrorResponse()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimAuthErrorResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimAuthToken">
+            <summary>Shim type of Salesforce.Common.Models.AuthToken</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthToken.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthToken.#ctor(Salesforce.Common.Models.AuthToken)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthToken.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimAuthToken.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimAuthToken.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimAuthToken.Constructor">
+            <summary>Sets the shim of AuthToken.AuthToken()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimAuthToken.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1">
+            <summary>Shim type of Salesforce.Common.Models.DescribeGlobalResult`1</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.#ctor(Salesforce.Common.Models.DescribeGlobalResult{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.Constructor">
+            <summary>Sets the shim of DescribeGlobalResult`1.DescribeGlobalResult`1()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.encodingGet">
+            <summary>Sets the shim of DescribeGlobalResult`1.get_encoding()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.encodingSetString">
+            <summary>Sets the shim of DescribeGlobalResult`1.set_encoding(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.maxBatchSizeGet">
+            <summary>Sets the shim of DescribeGlobalResult`1.get_maxBatchSize()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.maxBatchSizeSetInt32">
+            <summary>Sets the shim of DescribeGlobalResult`1.set_maxBatchSize(Int32 value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.sobjectsGet">
+            <summary>Sets the shim of DescribeGlobalResult`1.get_sobjects()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.sobjectsSetListOfT0">
+            <summary>Sets the shim of DescribeGlobalResult`1.set_sobjects(List`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.AllInstances.encodingGet">
+            <summary>Sets the shim of DescribeGlobalResult`1.get_encoding()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.AllInstances.encodingSetString">
+            <summary>Sets the shim of DescribeGlobalResult`1.set_encoding(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.AllInstances.maxBatchSizeGet">
+            <summary>Sets the shim of DescribeGlobalResult`1.get_maxBatchSize()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.AllInstances.maxBatchSizeSetInt32">
+            <summary>Sets the shim of DescribeGlobalResult`1.set_maxBatchSize(Int32 value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.AllInstances.sobjectsGet">
+            <summary>Sets the shim of DescribeGlobalResult`1.get_sobjects()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimDescribeGlobalResult`1.AllInstances.sobjectsSetListOfT0">
+            <summary>Sets the shim of DescribeGlobalResult`1.set_sobjects(List`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimErrorResponse">
+            <summary>Shim type of Salesforce.Common.Models.ErrorResponse</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponse.#ctor(Salesforce.Common.Models.ErrorResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimErrorResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimErrorResponse.Constructor">
+            <summary>Sets the shim of ErrorResponse.ErrorResponse()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimErrorResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimErrorResponses">
+            <summary>Shim type of Salesforce.Common.Models.ErrorResponses</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.#ctor(Salesforce.Common.Models.ErrorResponses)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.ICollection)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.IEnumerable)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.IList)">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.Generic.ICollection{Salesforce.Common.Models.ErrorResponse})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.Generic.IEnumerable{Salesforce.Common.Models.ErrorResponse})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.Generic.IList{Salesforce.Common.Models.ErrorResponse})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.Generic.IReadOnlyCollection{Salesforce.Common.Models.ErrorResponse})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimErrorResponses.Bind(System.Collections.Generic.IReadOnlyList{Salesforce.Common.Models.ErrorResponse})">
+            <summary>Binds the members of the interface to the shim.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimErrorResponses.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimErrorResponses.Constructor">
+            <summary>Sets the shim of ErrorResponses.ErrorResponses()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimErrorResponses.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimQueryResult`1">
+            <summary>Shim type of Salesforce.Common.Models.QueryResult`1</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimQueryResult`1.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimQueryResult`1.#ctor(Salesforce.Common.Models.QueryResult{`0})">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimQueryResult`1.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimQueryResult`1.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.Constructor">
+            <summary>Sets the shim of QueryResult`1.QueryResult`1()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.doneGet">
+            <summary>Sets the shim of QueryResult`1.get_done()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.doneSetString">
+            <summary>Sets the shim of QueryResult`1.set_done(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.recordsGet">
+            <summary>Sets the shim of QueryResult`1.get_records()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.recordsSetListOfT0">
+            <summary>Sets the shim of QueryResult`1.set_records(List`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.totalSizeGet">
+            <summary>Sets the shim of QueryResult`1.get_totalSize()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.totalSizeSetInt32">
+            <summary>Sets the shim of QueryResult`1.set_totalSize(Int32 value)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimQueryResult`1.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.AllInstances.doneGet">
+            <summary>Sets the shim of QueryResult`1.get_done()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.AllInstances.doneSetString">
+            <summary>Sets the shim of QueryResult`1.set_done(String value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.AllInstances.recordsGet">
+            <summary>Sets the shim of QueryResult`1.get_records()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.AllInstances.recordsSetListOfT0">
+            <summary>Sets the shim of QueryResult`1.set_records(List`1&lt;!0&gt; value)</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.AllInstances.totalSizeGet">
+            <summary>Sets the shim of QueryResult`1.get_totalSize()</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimQueryResult`1.AllInstances.totalSizeSetInt32">
+            <summary>Sets the shim of QueryResult`1.set_totalSize(Int32 value)</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimSuccessResponse">
+            <summary>Shim type of Salesforce.Common.Models.SuccessResponse</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimSuccessResponse.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimSuccessResponse.#ctor(Salesforce.Common.Models.SuccessResponse)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimSuccessResponse.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.ShimSuccessResponse.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimSuccessResponse.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.ShimSuccessResponse.Constructor">
+            <summary>Sets the shim of SuccessResponse.SuccessResponse()</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.ShimSuccessResponse.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.StubAuthErrorResponse">
+            <summary>Stub type of Salesforce.Common.Models.AuthErrorResponse</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubAuthErrorResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubAuthErrorResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthErrorResponse</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubAuthErrorResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubAuthErrorResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubAuthErrorResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.StubAuthToken">
+            <summary>Stub type of Salesforce.Common.Models.AuthToken</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubAuthToken.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubAuthToken.InitializeStub">
+            <summary>Initializes a new instance of type StubAuthToken</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubAuthToken.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubAuthToken.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubAuthToken.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.StubDescribeGlobalResult`1">
+            <summary>Stub type of Salesforce.Common.Models.DescribeGlobalResult`1</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubDescribeGlobalResult`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubDescribeGlobalResult`1.InitializeStub">
+            <summary>Initializes a new instance of type StubDescribeGlobalResult</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubDescribeGlobalResult`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubDescribeGlobalResult`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubDescribeGlobalResult`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.StubErrorResponse">
+            <summary>Stub type of Salesforce.Common.Models.ErrorResponse</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubErrorResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubErrorResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubErrorResponse</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubErrorResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubErrorResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubErrorResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.StubErrorResponses">
+            <summary>Stub type of Salesforce.Common.Models.ErrorResponses</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubErrorResponses.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubErrorResponses.InitializeStub">
+            <summary>Initializes a new instance of type StubErrorResponses</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubErrorResponses.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubErrorResponses.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubErrorResponses.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.StubQueryResult`1">
+            <summary>Stub type of Salesforce.Common.Models.QueryResult`1</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubQueryResult`1.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubQueryResult`1.InitializeStub">
+            <summary>Initializes a new instance of type StubQueryResult</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubQueryResult`1.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubQueryResult`1.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubQueryResult`1.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:Salesforce.Common.Models.Fakes.StubSuccessResponse">
+            <summary>Stub type of Salesforce.Common.Models.SuccessResponse</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubSuccessResponse.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:Salesforce.Common.Models.Fakes.StubSuccessResponse.InitializeStub">
+            <summary>Initializes a new instance of type StubSuccessResponse</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubSuccessResponse.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubSuccessResponse.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:Salesforce.Common.Models.Fakes.StubSuccessResponse.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>

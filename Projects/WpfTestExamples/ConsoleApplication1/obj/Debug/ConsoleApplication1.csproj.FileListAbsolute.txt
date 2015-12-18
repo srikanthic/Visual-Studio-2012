@@ -1,0 +1,5 @@
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\ConsoleApplication1\bin\Debug\ConsoleApplication1.exe
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\ConsoleApplication1\bin\Debug\ConsoleApplication1.pdb
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\ConsoleApplication1\obj\Debug\ConsoleApplication1.exe
+C:\Users\EMPLOYEE-05\Documents\Visual Studio 2012\Projects\WpfTestExamples\ConsoleApplication1\obj\Debug\ConsoleApplication1.pdb

@@ -1,0 +1,56 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="Timclock.Close"
+	x:Name="UserControl"
+	d:DesignWidth="640" d:DesignHeight="480">
+	<UserControl.Resources>
+		<Style x:Key="Close" TargetType="{x:Type Button}">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid>
+							<Path Data="M65,69.333333 C67.834237,68.833306 84.222433,87.889113 93.833649,97.167003 L123.16829,69.500334 136.83524,82.166848 107.50164,110.83317 137.16923,140.16672 122.83544,153.4996 92.834511,125.49985 63.166926,153.4996 49.833161,141.16638 79.501181,111.8333 50.167151,82.166891 C55.111434,77.889038 62.165763,69.83336 65,69.333333 z" RenderTransformOrigin="0.5,0.5" Stretch="Fill" StrokeThickness="8">
+								<Path.Fill>
+									<LinearGradientBrush EndPoint="0.221,1.053" StartPoint="0.663,-0.275">
+										<GradientStop Color="Red" Offset="0.637"/>
+										<GradientStop Color="#FFEC9D9D" Offset="1"/>
+									</LinearGradientBrush>
+								</Path.Fill>
+								<Path.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform Angle="-4.351"/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Path.RenderTransform>
+								<Path.Stroke>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF09A5FF" Offset="0"/>
+										<GradientStop Color="#FF819BAA" Offset="1"/>
+									</LinearGradientBrush>
+								</Path.Stroke>
+							</Path>
+							<ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsFocused" Value="True"/>
+							<Trigger Property="IsDefaulted" Value="True"/>
+							<Trigger Property="IsMouseOver" Value="True"/>
+							<Trigger Property="IsPressed" Value="True"/>
+							<Trigger Property="IsEnabled" Value="False"/>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Button Content="" Margin="77.852,30.376,119.625,22.921" Style="{DynamicResource Close}"/>
+	</Grid>
+</UserControl>
